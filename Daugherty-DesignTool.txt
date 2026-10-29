@@ -1,0 +1,33 @@
+Pseudocode 
+
+program starts by loading saved words from file 
+or starting with an empty list
+
+This section is repeated:
+    Shows menu and then adds words, 
+    Create text file,
+    Show words,  
+    Exit,
+        
+The program then gets users choice:
+    If words are added
+        Ask for a word and add it to the list
+        Until user says no or list is full
+
+    Else If create text file then
+        Write each word to a text document
+
+    Else If show words then
+        Display every word with its number
+
+    Else If exit then
+        Stop looping
+
+    Else
+        The program will tell user if they
+        had an invalid option
+
+When the program exits:
+    The word list will produce a binary file
+    so the list will be saved other then the 
+    option for the text document.
